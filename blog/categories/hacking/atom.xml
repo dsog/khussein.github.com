@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Hacking | Technology::Trotter]]></title>
+  <link href="http://khussein.github.com/blog/categories/hacking/atom.xml" rel="self"/>
+  <link href="http://khussein.github.com/"/>
+  <updated>2012-04-15T15:37:10-05:00</updated>
+  <id>http://khussein.github.com/</id>
+  <author>
+    <name><![CDATA[Khaled Hussein]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Why Crowdtilt Chose Perl]]></title>
+    <link href="http://khussein.github.com/blog/2012/04/13/why-crowdtilt-chose-perl/"/>
+    <updated>2012-04-13T12:06:00-05:00</updated>
+    <id>http://khussein.github.com/blog/2012/04/13/why-crowdtilt-chose-perl</id>
+    <content type="html"><![CDATA[<p>Here at <a href="https://www.crowdtilt.com">Crowdtilt</a> most of our system
+has been built using <a href="http://www.perl.org">Perl</a>. When I get asked about our
+technolog stack and mention Perl, I often get surprised looks followed by
+"Oh! wow, why?" :).  In this post, I will outline some of the most important
+reasons we chose to go with Perl, and hopefully clarify some of the
+misconceptions surrounding Perl and the Perl community.</p>
+
+<p>While we don't need a reason other than that we have a blast using Perl, and
+love the people in the Perl community, here is my attempt to explain
+a few of the reasons why my team and I decided to use Perl to build Crowdtilt:</p>
+
+<ol>
+<li><p><strong>We needed to move fast.</strong><br/>
+<a href="https://www.crowdtilt.com">Crowdtilt</a> is a young startup that is very
+passionate about enabling users to leverage the power of collaborative
+consumption models. We needed to move really fast and provide a highly
+scalable, extensible, and maintainable product to our customers to enable
+them to pool money together. Using <a href="http://perldancer.org">Perl Dancer</a> and
+<a href="http://cpan.org">CPAN</a>, we were able to prototype our site in a couple of
+days. That same "protoype" has evolved to the current version of the website
+over just a few weeks.</p></li>
+<li><p><strong>We needed a strong community.</strong><br/>
+Perl has a very strong community with highly competent hackers. When you look
+at CPAN, you'll notice that a lot of modules start their descriptions with "A
+simple way to do bla", which shows how much the community cares about
+simplicity and implementing things in a way that makes sense. This resonates
+very well with our culture and philosophy at
+<a href="https://www.crowdtilt.com">Crowdtilt</a>. We love the Perl community, we love
+simplicity and elegance, and the two go hand-in-hand :).</p></li>
+<li><p><strong>Comprehensive Perl Archive Network.</strong><br/>
+<a href="http://cpan.org">CPAN</a>, Perl's module repository, is one of, if not, <strong>the</strong>
+largest open source module respository amongst programming languages. The
+repository is evolving constantly and at a blistering pace. Perl is powerful,
+but CPAN is a game changer. Our team is gladly contributing new modules and
+enhancements to existing modules, while benefiting from community feedback
+and support.</p></li>
+<li><p><strong>Philosophy.</strong></p>
+
+<ul>
+<li><p>Language Design.<br/>
+Perl was designed to evolve the same way a spoken language does. Humans
+come up with new slang words and meanings that evolve the language. Perl
+evolves in a very similar manner that makes the language always fresh, fun
+to use, as well as incredibly flexible and able to be re-tooled for any
+purpose.</p>
+
+<p>As far as I know, Perl is one of the only languages that can evolve via
+3rd party modules.  Examples are Moose, MooseX::Declare and perl5i.  This
+allows it to evolve much faster than languages such as Java and Python
+(both of which are also great languages) which, in order to add new
+language features, require changes to the core language.</p></li>
+<li><p>Do What I Mean.<br/>
+A lot of Perl modules follow a DWIM (Do What I Mean) philosophy.  Lets say
+I want to handle an HTTP request and grab the userid parameter.  Was the
+parameter a query param, a HTTP POST param, a key/value pair inside the
+json body of the request, or a token in the url?  It doesn't matter. The
+Dancer framework lets me simply grab it via param 'userid'. It just does
+what I mean.  This might make some people feel uncomfortable, and for
+those people there is a way to be more explicit.  In practice however, the
+DWIM way results in more elegant and succinct code which is what we thrive
+on at <a href="https://www.crowdtilt.com">Crowdtilt</a>.</p></li>
+</ul>
+</li>
+<li><p><strong>Perl code is fun to write.</strong><br/>
+For me, it is because of how simple Perl code can be.</p></li>
+</ol>
+
+
+<p>We are always looking for ways to improve. So, I would love to get your
+feedback. In future posts, I'll describe the rest of our technology stack and
+architecture in more detail.</p>
+]]></content>
+  </entry>
+  
+</feed>
