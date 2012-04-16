@@ -5,11 +5,17 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Category: Hacking - Technology::Trotter</title>
+  <title>Crowdtilt Technology Stack - Technology::Trotter</title>
   <meta name="author" content="Khaled Hussein">
 
   
-  <meta name="description" content="Category: Hacking">
+  <meta name="description" content="Crowdtilt is built using
+Perl and a plathora of CPAN
+modules such as ubic and
+Rex for service management
+and
+POE::Component::MessageQueue
+for queing &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +24,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://khussein.github.comblog/categories/hacking">
+  <link rel="canonical" href="http://khussein.github.com/blog/2012/02/13/crowdtilt-technology-stack">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -76,36 +82,118 @@
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Category: Hacking</h1>
+    
+      <h1 class="entry-title">Crowdtilt Technology Stack</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-13T12:06:00-06:00" pubdate data-updated="true">Feb 13<span>th</span>, 2012</time>
+        
+         | <a href="#disqus_thread">Comments</a>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives" class="category">
 
 
+<div class="entry-content"><p><a href="https://www.crowdtilt.com">Crowdtilt</a> is built using
+<a href="http://www.perl.org">Perl</a> and a plathora of <a href="http://www.cpan.org">CPAN</a>
+modules such as <a href="https://metacpan.org/module/ubic">ubic</a> and
+<a href="https://metacpan.org/module/Rex">Rex</a> for service management
+and
+<a href="https://metacpan.org/module/POE::Component::MessageQueue">POE::Component::MessageQueue</a>
+for queing. The database is <a href="http://www.postgresql.org">PostgreSQL</a>. We use
+<a href="http://aws.amazon.com/ses">Amazon SES</a> for sending emails.  All configurations
+are managed by <a href="http://wiki.opscode.com/display/chef/Home">Chef</a> and all code
+is hosted at <a href="https://github.com">Github</a>.</p>
 
-  
-  <h2>2012</h2>
+<p>Production servers are hosted on <a href="http://aws.amazon.com/ec2">EC2</a> with
+<a href="http://www.ubuntu.com">Ubuntu</a> images. The webserver is
+<a href="https://metacpan.org/module/Starman">Starman</a> with
+<a href="http://nginx.org/en/">nginx</a> as a proxy and loadbalancer. For caching, we use
+<a href="http://memcached.org">memcached</a>.</p>
 
-<article>
-  
-<h1><a href="/blog/2012/04/13/why-crowdtilt-chose-perl/">Why Crowdtilt Chose Perl</a></h1>
-<time datetime="2012-04-13T12:06:00-05:00" pubdate><span class='month'>Apr</span> <span class='day'>13</span> <span class='year'>2012</span></time>
+<p>We maintain tasks, bugs, and feature requests in <a href="http://trello.com">Trello</a>.
+Team communication happens over emails,
+<a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>, and
+<a href="http://mumble.sourceforge.net">Mumble</a>. Development environments are built
+with <a href="http://vagrantup.com/">Vagrant</a> and identical to production setup. We use
+<a href="http://jenkins-ci.org">Jenkins</a> for continuous integration.</p>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/hacking/'>Hacking</a>, <a class='category' href='/blog/categories/perl/'>Perl</a></span>
-</footer>
-
-
-</article>
-
+<p>Crowdtilt&#8217;s email is served by <a href="http://www.google.com/a">Google Apps</a>. We also
+use <a href="http://www.google.com/analytics">Google Analytics</a> for monitoring the
+traffic. The <a href="http://blog.crowdtilt.com">official blog</a> is hosted on
+<a href="https://www.tumblr.com">Tumblr</a>.</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">Khaled Hussein</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-02-13T12:06:00-06:00" pubdate data-updated="true">Feb 13<span>th</span>, 2012</time>
+      
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://khussein.github.com/blog/2012/02/13/crowdtilt-technology-stack/" data-via="" data-counturl="http://khussein.github.com/blog/2012/02/13/crowdtilt-technology-stack/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/04/13/why-crowdtilt-chose-perl/" title="next Post: Why Crowdtilt Chose Perl">Why Crowdtilt Chose Perl &raquo;</a>
+      
+    </p>
+  </footer>
 </article>
+
+  <section>
+    <h1>Comments</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+</div>
+  </section>
 
 </div>
 
@@ -149,7 +237,10 @@
       var disqus_shortname = 'knighthacker';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://khussein.github.com/blog/2012/02/13/crowdtilt-technology-stack/';
+        var disqus_url = 'http://khussein.github.com/blog/2012/02/13/crowdtilt-technology-stack/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
