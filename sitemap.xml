@@ -2,14 +2,18 @@
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
         <loc>http://khussein.github.com/blog/2012/04/13/why-crowdtilt-chose-perl/</loc>
-        <lastmod>2012-04-13T15:03:16-05:00</lastmod>
+        <lastmod>2012-04-16T17:15:59-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://khussein.github.com/archives/</loc>
+        <lastmod>2012-04-16T13:27:34-05:00</lastmod>
     </url>
     <url>
         <loc>http://khussein.github.com/blog/archives/</loc>
-        <lastmod>2012-04-13T15:03:16-05:00</lastmod>
+        <lastmod>2012-04-16T17:15:59-05:00</lastmod>
     </url>
     <url>
         <loc>http://khussein.github.com/</loc>
-        <lastmod>2012-04-13T15:03:16-05:00</lastmod>
+        <lastmod>2012-04-16T17:15:59-05:00</lastmod>
     </url>
 </urlset>

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Perl | Technology::Trotter]]></title>
+  <title><![CDATA[Category: Perl | { Technology::Trotter }]]></title>
   <link href="http://khussein.github.com/blog/categories/perl/atom.xml" rel="self"/>
   <link href="http://khussein.github.com/"/>
-  <updated>2012-04-16T13:12:30-05:00</updated>
+  <updated>2012-04-16T17:17:25-05:00</updated>
   <id>http://khussein.github.com/</id>
   <author>
     <name><![CDATA[Khaled Hussein]]></name>
