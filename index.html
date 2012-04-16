@@ -188,71 +188,6 @@ architecture in more detail.</p>
 
     </article>
   
-  
-    <article>
-      
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2012/02/13/crowdtilt-technology-stack/">Crowdtilt Technology Stack</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
-  
-
-
-<time datetime="2012-02-13T12:06:00-06:00" pubdate data-updated="true">Feb 13<span>th</span>, 2012</time>
-        
-         | <a href="/blog/2012/02/13/crowdtilt-technology-stack/#disqus_thread">Comments</a>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p><a href="https://www.crowdtilt.com">Crowdtilt</a> is built using
-<a href="http://www.perl.org">Perl</a> and a plathora of <a href="http://www.cpan.org">CPAN</a>
-modules such as <a href="https://metacpan.org/module/ubic">ubic</a> and
-<a href="https://metacpan.org/module/Rex">Rex</a> for service management
-and
-<a href="https://metacpan.org/module/POE::Component::MessageQueue">POE::Component::MessageQueue</a>
-for queing. The database is <a href="http://www.postgresql.org">PostgreSQL</a>. We use
-<a href="http://aws.amazon.com/ses">Amazon SES</a> for sending emails.  All configurations
-are managed by <a href="http://wiki.opscode.com/display/chef/Home">Chef</a> and all code
-is hosted at <a href="https://github.com">Github</a>.</p>
-
-<p>Production servers are hosted on <a href="http://aws.amazon.com/ec2">EC2</a> with
-<a href="http://www.ubuntu.com">Ubuntu</a> images. The webserver is
-<a href="https://metacpan.org/module/Starman">Starman</a> with
-<a href="http://nginx.org/en/">nginx</a> as a proxy and loadbalancer. For caching, we use
-<a href="http://memcached.org">memcached</a>.</p>
-
-<p>We maintain tasks, bugs, and feature requests in <a href="http://trello.com">Trello</a>.
-Team communication happens over emails,
-<a href="http://en.wikipedia.org/wiki/Internet_Relay_Chat">IRC</a>, and
-<a href="http://mumble.sourceforge.net">Mumble</a>. Development environments are built
-with <a href="http://vagrantup.com/">Vagrant</a> and identical to production setup. We use
-<a href="http://jenkins-ci.org">Jenkins</a> for continuous integration.</p>
-
-<p>Crowdtilt&#8217;s email is served by <a href="http://www.google.com/a">Google Apps</a>. We also
-use <a href="http://www.google.com/analytics">Google Analytics</a> for monitoring the
-traffic. The <a href="http://blog.crowdtilt.com">official blog</a> is hosted on
-<a href="https://www.tumblr.com">Tumblr</a>.</p>
-</div>
-  
-  
-
-
-    </article>
-  
   <div class="pagination">
     
     <a href="/blog/archives">Blog Archives</a>
@@ -267,10 +202,6 @@ traffic. The <a href="http://blog.crowdtilt.com">official blog</a> is hosted on
     
       <li class="post">
         <a href="/blog/2012/04/13/why-crowdtilt-chose-perl/">Why Crowdtilt Chose Perl</a>
-      </li>
-    
-      <li class="post">
-        <a href="/blog/2012/02/13/crowdtilt-technology-stack/">Crowdtilt Technology Stack</a>
       </li>
     
   </ul>
